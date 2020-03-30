@@ -46,7 +46,7 @@ export default function Register() {
                     <p>Faça seu cadastro na plataforma e ajude pessoas a encontrarem os casos da sua ONG.</p>
                     
                     <Link className="back-link" to="/">
-                    <FiArrowLeft size={16} color="#e02041" />Não tenho cadastro
+                    <FiArrowLeft size={16} color="#e02041" />Voltar para home
                     </Link>
                 </section>
                 <form onSubmit={handleRegister}>
